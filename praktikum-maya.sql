@@ -1,2 +1,0 @@
-ALTER TABLE `presensi`
-	CHANGE COLUMN `keterangan` `keterangan` ENUM('HADIR','SAKIT','IZIN','CUTI','AKHIR PEKAN','LIBUR NASIONAL','TANPA KETERANGAN') NULL DEFAULT NULL COLLATE 'latin1_swedish_ci' AFTER `jam_keluar`;
